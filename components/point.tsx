@@ -48,7 +48,7 @@ const Point: NextPage<PointType> = ({
 
   return (
     <div
-      className={`flex flex-row items-start justify-start gap-1 text-left text-base text-white font-captions ${className}`}
+      className={`flex flex-row items-start justify-start gap-1 text-left text-base cursor-pointer text-white font-captions ${className}`}
     >
       <div className="flex flex-col items-start justify-start pt-0.5 px-0 pb-0">
         <div

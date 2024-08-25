@@ -7,9 +7,9 @@ export type BreadcrumbsType = {
 const Breadcrumbs: NextPage<BreadcrumbsType> = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-start gap-5 text-left text-base text-primary font-captions mq900:flex-wrap ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start gap-5 text-left text-base cursor-pointer text-primary font-captions mq900:flex-wrap ${className}`}
     >
-      <a className="[text-decoration:none] relative text-[inherit] inline-block min-w-[49px]">
+      <a className="[text-decoration:none] relative text-[inherit] inline-block hover:text-black  min-w-[49px]">
         Home
       </a>
       <img
@@ -18,7 +18,9 @@ const Breadcrumbs: NextPage<BreadcrumbsType> = ({ className = "" }) => {
         alt=""
         src="/checkboxiconarrowright.svg"
       />
-      <div className="relative inline-block min-w-[99px]">Livebestand</div>
+      <div className="relative inline-block min-w-[99px] hover:text-black">
+        Livebestand
+      </div>
       <img
         className="h-5 w-5 relative overflow-hidden shrink-0 min-h-[20px]"
         alt=""
