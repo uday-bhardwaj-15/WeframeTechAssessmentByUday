@@ -146,23 +146,23 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
               />
               <div className="self-stretch border-secondary-30 border-b-[1px] border-solid flex flex-col items-start justify-start pt-0 px-0 pb-7 gap-5">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <div className="self-stretch relative font-semibold">
+                  <div className="self-stretch relative font-semibold cursor-pointer">
                     Genetik
                   </div>
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start gap-1 text-left text-base text-black2">
-                  <div className="flex-1 rounded bg-primary flex flex-row items-center justify-center py-1 px-3.5 text-background">
-                    <div className="relative inline-block min-w-[51px]">
+                  <div className="flex-1 rounded bg-primary flex flex-row items-center justify-center py-1 px-3.5 text-background hover:bg-darkcyan-100 hover:text-white">
+                    <div className="relative inline-block min-w-[51px] cursor-pointer ">
                       Indica
                     </div>
                   </div>
-                  <div className="flex-1 rounded bg-secondary-30 flex flex-row items-center justify-center py-1 px-3.5 ">
-                    <div className="relative inline-block min-w-[51px] ">
+                  <div className="flex-1 rounded bg-secondary-30 flex flex-row items-center justify-center py-1 px-3.5  hover:bg-darkcyan-100 hover:text-white">
+                    <div className="relative inline-block min-w-[51px] cursor-pointer ">
                       Sativa
                     </div>
                   </div>
-                  <div className="rounded bg-secondary-30 flex flex-row items-center justify-center py-1 px-3">
-                    <div className="relative inline-block min-w-[56px]">
+                  <div className="rounded bg-secondary-30 flex flex-row items-center justify-center py-1 px-3 hover:bg-darkcyan-100 hover:text-white">
+                    <div className="relative inline-block min-w-[56px] cursor-pointer ">
                       Hybrid
                     </div>
                   </div>
@@ -170,7 +170,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
               </div>
               <div className="self-stretch border-secondary-30 border-b-[1px] border-solid flex flex-col items-start justify-start pt-0 px-0 pb-7 gap-5">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <div className="self-stretch relative font-semibold">
+                  <div className="self-stretch relative font-semibold cursor-pointer">
                     Bestrahltung
                   </div>
                 </div>
@@ -180,8 +180,8 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
                     tHC24="bestrahlt"
                     propMinWidth="74px"
                   />
-                  <div className="rounded bg-secondary-30 flex flex-row items-center justify-center py-1 px-2.5 whitespace-nowrap">
-                    <div className="relative inline-block min-w-[120px]">
+                  <div className="rounded bg-secondary-30 flex flex-row items-center justify-center py-1 px-2.5 whitespace-nowrap hover:bg-darkcyan-100 hover:text-white">
+                    <div className="relative inline-block min-w-[120px] cursor-pointer   ">
                       nicht bestrahlt
                     </div>
                   </div>
